@@ -1,6 +1,6 @@
 <webscript>
-    <shortname>ONLYOFFICE Prepare URL</shortname>
-    <description>Sends information to Share to prepare the ONLYOFFICE Edit Page</description>
+    <shortname>Markdown Path URL</shortname>
+    <description>Allows Images and Relative files to be accessed from the markdown preview</description>
     <url>/markdown/{nodepath}</url>
     <format default="">argument</format>
     <authentication>user</authentication>
