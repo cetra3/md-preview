@@ -61,9 +61,6 @@
 
                     newHtml = converter.makeHtml(mdData);
 
-                    console.log(newHtml);
-                    console.log(divElem);
-
                     divElem.className = "markdown-body";
                     divElem.innerHTML = converter.makeHtml(mdData);
 
@@ -71,9 +68,6 @@
                 });
 
             });
-
-            console.log(this.wp);
-            console.log(this.attributes);
 
         }
     }
