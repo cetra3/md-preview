@@ -30,7 +30,6 @@
             //Execute Ajax request for content
             require(["dojo/request", "showdown"], function(request, showdown){
 
-
                 //Once we have the content, let's create a converter and add the html to the div element
                 converter = new showdown.Converter({
                     extensions: [
@@ -38,7 +37,7 @@
                             return [{
                                 type: 'output',
                                 filter: function(source) {
-                                    return source.replace(/<img src="([^"]*)"/, function(match, src) {
+                                    return source.replace(/<img src="([^"]*)"/g, function(match, src) {
 
                                         if(src.startsWith("http")) {
                                             //if this includes external links, then don't change it.
