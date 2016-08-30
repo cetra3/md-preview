@@ -1,0 +1,19 @@
+<extension>
+    <modules>
+        <module>
+            <id>Parashift Markdown Preview</id>
+            <version>1.0</version>
+            <auto-deploy>true</auto-deploy>
+            <customizations>
+                <customization>
+                    <targetPackageRoot>org.alfresco.components.preview</targetPackageRoot>
+                    <sourcePackageRoot>com.parashift.markdown.preview-config</sourcePackageRoot>
+                    <dependencies>
+                        <js>/res/components/preview/MarkDown.js</js>
+                        <css>/res/components/preview/MarkDown.css</css>
+                    </dependencies>
+                </customization>
+            </customizations>
+        </module>
+    </modules>
+</extension>

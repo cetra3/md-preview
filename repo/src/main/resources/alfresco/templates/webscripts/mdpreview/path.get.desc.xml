@@ -1,0 +1,7 @@
+<webscript>
+    <shortname>ONLYOFFICE Prepare URL</shortname>
+    <description>Sends information to Share to prepare the ONLYOFFICE Edit Page</description>
+    <url>/markdown/{nodepath}</url>
+    <format default="">argument</format>
+    <authentication>user</authentication>
+</webscript>
