@@ -4,6 +4,14 @@ This module adds a markdown preview to Alfresco Share:
 
 ![](markdown-preview.png)
 
+## keensoft fork
+
+Forked to allow classic Maven compiling
+
+`mvn clean package`
+
+Below, original notes from author.
+
 ## Compiling
 
 You will need:
