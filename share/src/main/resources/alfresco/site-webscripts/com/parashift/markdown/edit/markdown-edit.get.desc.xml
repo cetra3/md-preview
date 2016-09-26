@@ -1,0 +1,5 @@
+<webscript>
+   <shortname>Markdown Edit</shortname>
+   <description>Allows a user to edit Markdown</description>
+   <url>/components/markdown-edit</url>
+</webscript>

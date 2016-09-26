@@ -1,6 +1,6 @@
 # Markdown Preview for Alfresco Share
 
-This module adds a markdown preview to Alfresco Share:
+This module adds a markdown preview and edit button to Alfresco Share:
 
 ![](markdown-preview.png)
 
@@ -13,12 +13,19 @@ You will need:
 * Parashift's alfresco amp plugin from here: https://bitbucket.org/parashift/alfresco-amp-plugin
 * Run `gradle amp` from the `share` and `repo` directories
 
-### Installing to Alfresco
+## Installing to Alfresco
 
 * Deploy the amp to both the repo and share end using alfresco-mmt or other methods
 
-### Usage
+## Usage
 
-The usage is automatic.
+### Previewing a Markdown document
 
-Any documents with the mime type `text/x-markdown` will display within the document details view.
+* Navigate to the document details page of a markdown document
+
+
+### Editing a Markdown document
+
+* Find a markdown document within the document library
+* Select `Edit Markdown`
+* When you are finished, select `Save Markdown`

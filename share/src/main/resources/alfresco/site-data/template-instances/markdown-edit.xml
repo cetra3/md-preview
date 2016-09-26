@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template-instance>
+   <template-type>com/parashift/markdown-edit</template-type>
+   <components>
+
+      <!-- My Sites -->
+      <component>
+         <region-id>markdown-edit</region-id>
+         <url>/components/markdown-edit</url>
+      </component>
+
+   </components>
+</template-instance>

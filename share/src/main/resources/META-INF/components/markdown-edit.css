@@ -1,0 +1,35 @@
+.markdown-section {
+    overflow: hidden;
+    border: 1px solid #ccc !important;
+    background-color: #fff;
+    margin: 10px 0;
+    box-shadow: 0.33px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-section .markdown-body {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    border: 0px;
+    overflow-x: auto;
+
+}
+
+.markdown-editor, .markdown-preview {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+
+.markdown-text {
+    width: 100% !important;
+}
+
+
+.markdown-section h1 {
+    border-bottom: 3px solid #ccc;
+}

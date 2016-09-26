@@ -1,3 +1,37 @@
 <alfresco-config>
-    <!-- Insert configuration here -->
+
+    <!-- not yet implemented
+    <config evaluator="string-compare" condition="DocumentLibrary">
+
+        <create-content>
+           <content id="markdown" label="create-content.md" type="pagelink" index="25">
+              <param name="page">markdown-edit?destination={nodeRef}</param>
+           </content>
+        </create-content>
+
+    </config>
+    -->
+
+    <config evaluator="string-compare" condition="DocLibActions">
+    <actions>
+        <action id="document-markdown-edit" type="pagelink" label="actions.document.markdown-edit">
+            <param name="page">markdown-edit?nodeRef={node.nodeRef}</param>
+            <permissions>
+                <permission allow="true">Write</permission>
+            </permissions>
+            <evaluator>evaluator.doclib.action.markdownMimetype</evaluator>
+            <evaluator>evaluator.doclib.action.editableByCurrentUser</evaluator>
+            <evaluator negate="true">evaluator.doclib.action.isLocked</evaluator>
+        </action>
+    </actions>
+    <actionGroups>
+        <actionGroup id="document-browse">
+            <action index="90" id="document-markdown-edit" />
+        </actionGroup>
+        <actionGroup id="document-details">
+            <action index="90" id="document-markdown-edit" />
+        </actionGroup>
+    </actionGroups>
+    </config>
+
 </alfresco-config>
