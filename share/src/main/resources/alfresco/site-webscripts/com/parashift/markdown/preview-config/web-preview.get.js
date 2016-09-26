@@ -3,7 +3,7 @@ if (model.widgets)
     for (var i = 0; i < model.widgets.length; i++)
     {
         var widget = model.widgets[i];
-        if (widget.id == "WebPreview")
+        if (widget.id == "WebPreview" && model.proxy != "alfresco-noauth")
         {
 
             //We need to know some extra bits about the node, such as the repoPath to display images
