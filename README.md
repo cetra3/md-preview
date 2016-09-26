@@ -4,6 +4,10 @@ This module adds a markdown preview and edit button to Alfresco Share:
 
 ![](markdown-preview.png)
 
+This also adds a markdown editor:
+
+![](markdown-editor.png)
+
 ## Compiling
 
 You will need:
