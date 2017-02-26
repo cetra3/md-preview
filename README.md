@@ -1,6 +1,6 @@
 # Markdown Preview for Alfresco Share
 
-This module adds a markdown preview and edit button to Alfresco Share:
+This module leverages [showdown.js](https://github.com/showdownjs/showdown) to add markdown preview and edit button to Alfresco Share:
 
 ![](markdown-preview.png)
 
