@@ -29,7 +29,9 @@
 
             //Execute Ajax request for content
             require(["dojo/request", "showdown"], function(request, showdown){
-
+            
+            showdown.setFlavor('github');
+            
                 //Once we have the content, let's create a converter and add the html to the div element
                 converter = new showdown.Converter({
                     extensions: [
@@ -53,7 +55,6 @@
                     ]
 
                 });
-
 
                 request.get(Alfresco.constants.PROXY_URI_RELATIVE + node.contentURL).then(function(mdData) {
 

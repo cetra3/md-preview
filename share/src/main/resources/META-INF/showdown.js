@@ -152,7 +152,7 @@ var showdown = {},
     parsers = {},
     extensions = {},
     globalOptions = getDefaultOpts(true),
-    setFlavor = 'github',
+    setFlavor = 'vanilla',
     flavor = {
       github: {
         omitExtraWLInCodeBlocks:              true,
