@@ -16,8 +16,8 @@ repositories {
 
     maven {
         credentials {
-            username project['alfresco.repo.private.username']
-            password project['alfresco.repo.private.password']
+            //username project['alfresco.repo.private.username']
+            //password project['alfresco.repo.private.password']
         }
 
         url "https://maven.alfresco.com/nexus/content/groups/private/"
@@ -30,11 +30,11 @@ configurations {
     all*.exclude group: 'maven-plugins'
 }
 
-version = "1.1.0"
+version = "1.2.1"
 
 ext {
     alfresco = [:]
-    alfresco.version = "5.0.1"
+    alfresco.version = "5.1.g"
 }
 
 dependencies {

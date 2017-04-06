@@ -1,5 +1,7 @@
 require(["dojo/dom", "dojo/query", "dojo/on", "dojo/request", "showdown", "dojo/domReady!"], function(dom, query, on, request, showdown){
 
+showdown.setFlavor('github');
+
     function resizeFrame(elem) {
          elem.style.height = (window.innerHeight - 280) + "px";
     }
