@@ -13,6 +13,14 @@
                         <css>/res/components/preview/MarkDown.css</css>
                     </dependencies>
                 </customization>
+                <customization>
+                    <targetPackageRoot>org.alfresco.components.documentlibrary</targetPackageRoot>
+                    <sourcePackageRoot>com.parashift.markdown.preview-config</sourcePackageRoot>
+                    <dependencies>
+                        <js>/res/components/preview/MarkDown.js</js>
+                        <css>/res/components/preview/MarkDown.css</css>
+                    </dependencies>
+                </customization>
             </customizations>
         </module>
     </modules>
