@@ -20,6 +20,7 @@
   border-right: 1px solid #ccc;
   padding: 10px;
   margin-left: 3px;
+  text-align: left;
 
 }
 
@@ -300,6 +301,8 @@
 
 .markdown-body li {
   list-style: inside !important;
+  float: none;
+  text-align: left;
 }
 
 .markdown-body ul,

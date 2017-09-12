@@ -7,7 +7,7 @@ if (model.widgets)
         {
 
             //We need to know some extra bits about the node, such as the repoPath to display images
-            pObj = eval('(' + remote.call("/slingshot/doclib2/node/" + url.args.nodeRef.replace(":/","")) + ')');
+            pObj = eval('(' + remote.call("/slingshot/doclib2/node/" + model.nodeRef.replace(":/","")) + ')');
 
             //We check to see if the mime type is markdown, and if so, overwrite the conditions object.
             if(pObj.item && pObj.item.node && pObj.item.node.mimetype == "text/x-markdown") {
